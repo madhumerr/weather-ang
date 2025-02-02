@@ -2,7 +2,7 @@
   <div class="weather">
     <h1>{{title | titlecase}} App</h1>
     <input placeholder="Enter your city name" (input)="setCity($event)">
-    <button (click)="myFun()">Check weather</button>
+    <button (click)="checkWeather()">Check weather</button>
 
     <h2>{{dcity | titlecase }}</h2>
     <img src={{image}} >
